@@ -1,0 +1,32 @@
+{
+  "name": "nodejsproyect",
+  "version": "1.0.0",
+  "description": "An expressjs and nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Nivaniz/Express-project.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "expressjs"
+  ],
+  "author": "Nirvana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nivaniz/Express-project/issues"
+  },
+  "homepage": "https://github.com/Nivaniz/Express-project#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.2"
+  }
+}
